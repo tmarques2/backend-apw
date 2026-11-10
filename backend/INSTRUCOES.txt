@@ -1,0 +1,7 @@
+Arquivos ajustados a partir do projeto original.
+Substitua loja/settings.py e produtos/serializers.py e produtos/views.py após fazer backup.
+Demais arquivos estão incluídos para referência e mantêm suas rotas atuais.
+Execute: pip install django-cors-headers djangorestframework djangorestframework-simplejwt
+Execute: python manage.py check && python manage.py migrate && python manage.py runserver
+Não copie esses diretórios por cima do backend sem revisar diferenças locais.
+OBS: CORS e DEBUG são apenas para desenvolvimento. SECRET_KEY foi retirada do pacote.
